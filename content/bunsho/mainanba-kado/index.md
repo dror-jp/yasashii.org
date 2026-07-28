@@ -3,7 +3,7 @@ title: "マイナンバーカードの 作り方"
 summary: "マイナンバーカードは、写真つきの 大切な カードです。無料で 作れます。作り方を 説明します。"
 layout: "document"
 category: "tetsuzuki"
-tier: "draft"
+tier: "verified"
 last_verified: "2026-07-29"
 scores:
   avg_sentence_chars: 21.5

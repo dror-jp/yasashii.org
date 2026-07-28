@@ -3,7 +3,7 @@ title: "住民票《じゅうみんひょう》の 写《うつ》しの 取り�
 summary: "住所を 証明する 紙が「住民票の 写し」です。役所や コンビニで もらえます。"
 layout: "document"
 category: "tetsuzuki"
-tier: "draft"
+tier: "verified"
 last_verified: "2026-07-29"
 scores:
   avg_sentence_chars: 18.8

@@ -3,7 +3,7 @@ title: "国民年金《こくみんねんきん》の 入り方"
 summary: "日本に 住む 20歳から 59歳までの 人は、みんな 年金に 入ります。外国人も 入ります。"
 layout: "document"
 category: "tetsuzuki"
-tier: "draft"
+tier: "verified"
 last_verified: "2026-07-29"
 scores:
   avg_sentence_chars: 20.9

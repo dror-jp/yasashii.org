@@ -3,7 +3,7 @@ title: "転出届《てんしゅつとどけ》の 出し方"
 summary: "別の まちに 引っ越す ときは、今の まちの 役所に「転出届」を 出します。引っ越す 前に 出します。"
 layout: "document"
 category: "tetsuzuki"
-tier: "draft"
+tier: "verified"
 last_verified: "2026-07-29"
 scores:
   avg_sentence_chars: 19.1

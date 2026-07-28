@@ -3,7 +3,7 @@ title: "救急車《きゅうきゅうしゃ》の 呼び方（119番）"
 summary: "急な 病気や 大きな けがの ときは、電話で 119に かけます。無料です。呼び方を 説明します。"
 layout: "document"
 category: "bosai"
-tier: "draft"
+tier: "verified"
 last_verified: "2026-07-29"
 scores:
   avg_sentence_chars: 16.2

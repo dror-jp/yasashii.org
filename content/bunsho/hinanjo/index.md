@@ -3,7 +3,7 @@ title: "避難所《ひなんじょ》の 使い方"
 summary: "災害で 家に いられない とき、「避難所」に 行けます。だれでも 使えます。使い方を 説明します。"
 layout: "document"
 category: "bosai"
-tier: "draft"
+tier: "verified"
 last_verified: "2026-07-29"
 scores:
   avg_sentence_chars: 23.6

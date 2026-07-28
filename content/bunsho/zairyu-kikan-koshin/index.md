@@ -3,7 +3,7 @@ title: "在留期間《ざいりゅうきかん》の 更新《こうしん》�
 summary: "日本に いられる 期間には、終わりの 日が あります。続けて 日本に いたい 人は、終わる 前に 更新の 申請を します。"
 layout: "document"
 category: "tetsuzuki"
-tier: "draft"
+tier: "verified"
 last_verified: "2026-07-29"
 scores:
   avg_sentence_chars: 18.6
