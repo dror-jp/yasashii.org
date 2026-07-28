@@ -3,7 +3,7 @@ title: "国民健康保険《こくみんけんこうほけん》の 入り方"
 summary: "会社の 健康保険が ない人は、役所で「国民健康保険」に 入ります。入ると、病院の お金が 安くなります。"
 layout: "document"
 category: "tetsuzuki"
-tier: "draft"
+tier: "verified"
 last_verified: "2026-07-29"
 scores:
   avg_sentence_chars: 15.4

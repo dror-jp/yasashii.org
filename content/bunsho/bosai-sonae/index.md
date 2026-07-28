@@ -3,7 +3,7 @@ title: "災害《さいがい》の 準備《じゅんび》"
 summary: "日本は、地震や 台風が 多い 国です。何も ない ときに、準備を して ください。"
 layout: "document"
 category: "bosai"
-tier: "draft"
+tier: "verified"
 last_verified: "2026-07-29"
 scores:
   avg_sentence_chars: 16.4

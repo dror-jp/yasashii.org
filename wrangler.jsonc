@@ -1,0 +1,15 @@
+{
+  // Cloudflare Workers (static assets) deployment config.
+  // Build: hugo --minify  ->  serve the generated ./public directory.
+  "name": "yasashii-org",
+  "compatibility_date": "2026-07-29",
+  "routes": [
+    { "pattern": "yasashii.org", "custom_domain": true },
+    { "pattern": "www.yasashii.org", "custom_domain": true }
+  ],
+  "assets": {
+    "directory": "./public",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page"
+  }
+}

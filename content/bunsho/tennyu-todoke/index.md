@@ -3,7 +3,7 @@ title: "転入届《てんにゅうとどけ》の 出し方"
 summary: "引っ越しを したら、新しい まちの 役所に「転入届」を 出します。14日以内です。"
 layout: "document"
 category: "tetsuzuki"
-tier: "draft"
+tier: "verified"
 last_verified: "2026-07-29"
 scores:
   avg_sentence_chars: 18.7
