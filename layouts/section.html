@@ -1,0 +1,18 @@
+{{ define "main" }}
+<div class="container">
+  <p class="crumb"><a href="{{ "/" | relURL }}">ホーム</a> /</p>
+  <div class="page-head">
+    <h1>{{ partial "ruby.html" .Title }}</h1>
+    {{ with .Params.summary }}<p class="summary">{{ partial "ruby.html" . }}</p>{{ end }}
+  </div>
+  <div class="content-body">{{ partial "ruby.html" .Content }}</div>
+  <div class="card-grid">
+    {{ range .Pages }}
+      <a class="scene-card" href="{{ .RelPermalink }}">
+        <h3>{{ partial "ruby.html" .Title }}</h3>
+        <p>{{ partial "ruby.html" (.Params.summary | default "") }}</p>
+      </a>
+    {{ end }}
+  </div>
+</div>
+{{ end }}

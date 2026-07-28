@@ -1,0 +1,2 @@
+{{- /* 《》記法を <ruby> に変換して描画する。使い方: {{ partial "ruby.html" .Content }} */ -}}
+{{- . | replaceRE "([一-龯々]+)《([^》]+)》" "<ruby>$1<rt>$2</rt></ruby>" | safeHTML -}}

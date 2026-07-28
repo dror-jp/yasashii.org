@@ -1,0 +1,20 @@
+{{ define "main" }}
+<div class="container">
+  <section class="hero">
+    <p class="declaration">{{ site.Params.notGovernment }} 正しい 役所の ページに 案内します。</p>
+    <h1>役所の ことばは、むずかしい。<br>だから、やさしく 書きなおしました。</h1>
+    <p class="tagline">手続きの やり方と 防災の 情報を、やさしい日本語で 読めます。ぜんぶ 無料です。コピーして 使えます。</p>
+  </section>
+  <div class="card-grid">
+    {{ range .Params.scenes }}
+      <a class="scene-card{{ if .soon }} soon{{ end }}" href="{{ .url | relURL }}">
+        <span class="scene-kicker">{{ .kicker }}</span>
+        <h2>{{ partial "ruby.html" .title }}</h2>
+        <p>{{ .desc }}</p>
+        {{ if .soon }}<span class="badge-soon">じゅんび中</span>{{ end }}
+      </a>
+    {{ end }}
+  </div>
+  <div class="content-body">{{ partial "ruby.html" .Content }}</div>
+</div>
+{{ end }}

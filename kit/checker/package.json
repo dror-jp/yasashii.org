@@ -1,0 +1,10 @@
+{
+  "name": "yasashii-checker",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "やさしい日本語の機械チェッカー v1 — 文長・語種率・難表現パターン・jReadability近似スコア",
+  "dependencies": {
+    "kuromoji": "^0.1.2"
+  }
+}

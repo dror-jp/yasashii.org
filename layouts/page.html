@@ -1,0 +1,29 @@
+{{ define "main" }}
+<div class="container">
+  <p class="crumb"><a href="{{ "/" | relURL }}">ホーム</a> /</p>
+  <div class="page-head">
+    <h1>{{ partial "ruby.html" .Title }}</h1>
+    {{ with .Params.summary }}<p class="summary">{{ partial "ruby.html" . }}</p>{{ end }}
+  </div>
+  <div class="content-body">{{ partial "ruby.html" .Content }}</div>
+  {{ with .Params.source_links }}
+  <section class="block">
+    <h2>リンク（確認済み）</h2>
+    <ul class="official-links">
+      {{ range . }}
+        <li>
+          <a href="{{ .url }}" rel="noopener">
+            <span class="link-label">{{ .label }}</span>
+            <span class="link-meta">
+              <span class="domain-pill">{{ (urls.Parse .url).Host }}</span>
+              <span class="link-publisher">{{ .publisher }}</span>
+              <span class="link-verified">確認日 {{ .verified }}</span>
+            </span>
+          </a>
+        </li>
+      {{ end }}
+    </ul>
+  </section>
+  {{ end }}
+</div>
+{{ end }}

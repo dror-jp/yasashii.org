@@ -1,0 +1,68 @@
+{{ define "main" }}
+{{ $p := .Params }}
+<div class="container">
+  <p class="crumb"><a href="{{ "/" | relURL }}">ホーム</a> / <a href="{{ .Parent.RelPermalink }}">{{ .Parent.Title }}</a> /</p>
+  <div class="page-head">
+    <h1>{{ partial "ruby.html" .Title }}</h1>
+    <p class="summary">{{ partial "ruby.html" $p.summary }}</p>
+    <div class="facts-row">
+      {{ if eq $p.tier "verified" }}
+        <span class="fact-chip tier-verified">✓ 人が 確認しました（{{ $p.last_verified }}）</span>
+      {{ else }}
+        <span class="fact-chip tier-draft">下書き — まだ 人の 確認が 終わっていません</span>
+      {{ end }}
+      <span class="fact-chip"><b>もとの情報</b> {{ len $p.source_links }}件 確認済み</span>
+    </div>
+  </div>
+
+  <div class="content-body">{{ partial "ruby.html" .Content }}</div>
+
+  {{ with $p.terms }}
+  <section class="block">
+    <h2>ことばの せつめい</h2>
+    <dl class="terms">
+      {{ range . }}
+        <dt>{{ .word }}（{{ .reading }}）</dt>
+        <dd>{{ partial "ruby.html" .meaning }}</dd>
+      {{ end }}
+    </dl>
+  </section>
+  {{ end }}
+
+  <section class="block">
+    <h2>もとの 情報（正しいのは こちら）</h2>
+    <p class="small muted">この ページと ちがうことが 書いてあったら、下の 役所の ページが 正しいです。</p>
+    <ul class="official-links">
+      {{ range $p.source_links }}
+        <li>
+          <a href="{{ .url }}" rel="noopener">
+            <span class="link-label">{{ .label }}</span>
+            <span class="link-meta">
+              <span class="domain-pill">{{ (urls.Parse .url).Host }}</span>
+              <span class="link-publisher">{{ .publisher }}</span>
+              <span class="link-verified">確認日 {{ .verified }}</span>
+            </span>
+          </a>
+        </li>
+      {{ end }}
+    </ul>
+  </section>
+
+  {{ with $p.scores }}
+  <section class="block">
+    <h2>この 文章の チェック</h2>
+    <p class="small muted">機械で しらべた 結果です（国の ガイドラインに そって 作りました）。</p>
+    <div class="score-row">
+      <span class="fact-chip"><b>一文の長さ</b> 平均{{ .avg_sentence_chars }}字</span>
+      <span class="fact-chip"><b>漢語率</b> {{ .kango_rate }}%</span>
+      <span class="fact-chip"><b>要確認</b> {{ .warning_count }}件</span>
+    </div>
+  </section>
+  {{ end }}
+
+  <section class="block">
+    <h2>この 文章を 使いたい 人へ</h2>
+    <p>役所・学校・支援団体の みなさんは、この 文章を 自由に コピーして 使えます（<a href="https://creativecommons.org/licenses/by/4.0/deed.ja" rel="noopener">CC BY 4.0</a>・出典「yasashii.org」を 書いてください）。</p>
+  </section>
+</div>
+{{ end }}

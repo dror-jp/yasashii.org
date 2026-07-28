@@ -1,0 +1,9 @@
+public/
+resources/
+.hugo_build.lock
+node_modules/
+
+# local-only files — never published
+internal/
+CLAUDE.local.md
+.claude/

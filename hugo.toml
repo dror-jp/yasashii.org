@@ -1,0 +1,20 @@
+baseURL = "https://yasashii.org/"
+title = "yasashii.org"
+languageCode = "ja"
+defaultContentLanguage = "ja"
+enableRobotsTXT = true
+disableKinds = ["taxonomy", "term", "rss"]
+
+[params]
+  tagline = "役所の 情報を、やさしい 日本語で。"
+  notGovernment = "ここは 政府や 役所の サイトでは ありません。"
+  operatorName = "DroR Corporation"
+  operatorUrl = "https://dror.co.jp"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = false
+
+[minify]
+  disableXML = true
