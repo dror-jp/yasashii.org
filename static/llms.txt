@@ -1,0 +1,34 @@
+# yasashii.org
+
+> 行政手続き・防災情報の「やさしい日本語」版ライブラリ。国の一次情報（総務省・入管庁・内閣府・消防庁・e-Gov法令）に基づいてゼロから書き、人が検証した文書だけを verified と表示します。政府・役所のサイトではありません（運営: DroR Corporation、非営利・広告なし）。
+
+Notation: 《…》= ふりがな (ruby) for the preceding kanji. Half-width spaces = 分かち書き word breaks.
+If anything here differs from an official government page, the official page is correct.
+License: CC BY 4.0 — attribution: yasashii.org (DroR Corporation)
+
+## Machine-readable API (generated at build time from the same source as the HTML — never hand-synced)
+
+- Documents (all, with tier / scores / verified sources): https://yasashii.org/api/documents.json
+- Terms (役所のことばの やさしい説明): https://yasashii.org/api/terms.json
+- Metadata: https://yasashii.org/api/meta.json
+- Full text of every document: https://yasashii.org/llms-full.txt
+- Every page as plain Markdown: append `index.md` to any page URL (e.g. https://yasashii.org/bunsho/tennyu-todoke/index.md)
+- MCP server: `npx -y @dror-jp/yasashii-org-mcp`
+
+## Documents
+
+- 転入届の 出し方: https://yasashii.org/bunsho/tennyu-todoke/index.md
+- 転出届の 出し方: https://yasashii.org/bunsho/tenshutsu-todoke/index.md
+- 住民票の 写しの 取り方: https://yasashii.org/bunsho/juminhyo-utsushi/index.md
+- 国民健康保険の 入り方: https://yasashii.org/bunsho/kokumin-kenko-hoken/index.md
+- 国民年金の 入り方: https://yasashii.org/bunsho/kokumin-nenkin/index.md
+- マイナンバーカードの 作り方: https://yasashii.org/bunsho/mainanba-kado/index.md
+- 在留期間の 更新の しかた: https://yasashii.org/bunsho/zairyu-kikan-koshin/index.md
+- 災害の 準備: https://yasashii.org/bunsho/bosai-sonae/index.md
+- 避難所の 使い方: https://yasashii.org/bunsho/hinanjo/index.md
+- 救急車の 呼び方（119番）: https://yasashii.org/bunsho/kyukyusha-119/index.md
+
+## Guides
+
+- やさしい日本語の 正しい 一次情報（入管庁×文化庁ガイドライン等）: https://yasashii.org/guide/index.md
+- この サイトに ついて: https://yasashii.org/about/index.md

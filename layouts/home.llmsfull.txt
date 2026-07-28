@@ -1,0 +1,21 @@
+# yasashii.org — full text for LLMs
+# 行政手続き・防災情報の「やさしい日本語」版ライブラリ。国の一次情報に基づいてゼロから書き、人が検証しています。
+# NOT a government website. Operated by DroR Corporation (https://dror.co.jp), non-commercial.
+# 役所のページと内容がちがうときは、役所のページが正しいです。
+# Notation: 《…》= furigana (ruby) for the preceding kanji. Half-width spaces = wakachi-gaki word breaks.
+# License: CC BY 4.0 — attribution: yasashii.org (DroR Corporation)
+# Generated: {{ now.Format "2006-01-02" }} (built from the same source as the HTML site — never hand-synced)
+# JSON API: {{ "api/documents.json" | absURL }} | {{ "api/terms.json" | absURL }} | {{ "api/meta.json" | absURL }}
+
+{{ range where site.RegularPages "Section" "bunsho" }}
+## {{ replaceRE "《[^》]+》" "" .Title }}  [id: {{ path.Base .File.Dir }}] [tier: {{ .Params.tier }}] [verified: {{ .Params.last_verified }}]
+
+{{ .Params.summary }}
+
+{{ .RawContent }}
+{{ with .Params.terms }}ことばの せつめい:
+{{ range . }}  - {{ .word }}（{{ .reading }}）: {{ .meaning }}
+{{ end }}{{ end }}{{ with .Params.source_links }}もとの情報 (human-verified primary sources):
+{{ range . }}  - {{ .label }}: {{ .url }} (verified {{ .verified }})
+{{ end }}{{ end }}Page: {{ .Permalink }} (Markdown: {{ .Permalink }}index.md)
+{{ end }}

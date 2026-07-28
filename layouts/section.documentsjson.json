@@ -1,0 +1,29 @@
+{{- $docs := slice -}}
+{{- range where site.RegularPages "Section" "bunsho" -}}
+  {{- $docs = $docs | append (dict
+        "id" (path.Base .File.Dir)
+        "title" .Title
+        "title_plain" (replaceRE "《[^》]+》" "" .Title)
+        "summary" .Params.summary
+        "category" .Params.category
+        "tier" .Params.tier
+        "last_verified" .Params.last_verified
+        "scores" .Params.scores
+        "source_links" .Params.source_links
+        "terms" .Params.terms
+        "url" .Permalink
+        "url_md" (printf "%sindex.md" .Permalink)
+      ) -}}
+{{- end -}}
+{{- $out := dict
+      "name" "yasashii.org documents"
+      "generated" (now.Format "2006-01-02")
+      "notation" "《…》 marks furigana (ruby) readings for the preceding kanji. Half-width spaces are wakachi-gaki word breaks. Both follow the Immigration Services Agency / Agency for Cultural Affairs Easy Japanese guideline."
+      "tiers" (dict "verified" "human-reviewed against the primary sources listed in source_links" "draft" "machine-checked only, human review pending")
+      "count" (len $docs)
+      "documents" $docs
+      "disclaimer" "yasashii.org is not operated by any government body. If anything in this data differs from an official government page, the official page is correct."
+      "license" "CC BY 4.0"
+      "attribution" "yasashii.org (DroR Corporation)"
+-}}
+{{- $out | jsonify (dict "indent" "  ") -}}

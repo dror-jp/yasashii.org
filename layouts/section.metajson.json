@@ -1,0 +1,22 @@
+{{- $dates := slice -}}
+{{- range where site.RegularPages "Section" "bunsho" -}}
+  {{- with .Params.last_verified }}{{ $dates = $dates | append . }}{{ end -}}
+{{- end -}}
+{{- $dates = sort $dates -}}
+{{- $out := dict
+      "name" "yasashii.org API metadata"
+      "generated" (now.Format "2006-01-02")
+      "oldest_verification" (index $dates 0)
+      "endpoints" (slice
+        (printf "%sapi/documents.json" site.BaseURL)
+        (printf "%sapi/terms.json" site.BaseURL)
+        (printf "%sapi/meta.json" site.BaseURL)
+        (printf "%sllms.txt" site.BaseURL)
+        (printf "%sllms-full.txt" site.BaseURL)
+      )
+      "markdown_mirrors" "Every page is also served as plain Markdown at <page-url>index.md"
+      "disclaimer" "yasashii.org is not operated by any government body. If anything in this data differs from an official government page, the official page is correct."
+      "license" "CC BY 4.0"
+      "attribution" "yasashii.org (DroR Corporation)"
+-}}
+{{- $out | jsonify (dict "indent" "  ") -}}

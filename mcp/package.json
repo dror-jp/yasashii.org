@@ -1,0 +1,36 @@
+{
+  "name": "@dror-jp/yasashii-org-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for yasashii.org — human-verified Easy Japanese (やさしい日本語) versions of Japanese administrative procedures and disaster-preparedness information. Zero dependencies.",
+  "type": "module",
+  "bin": {
+    "yasashii-org-mcp": "server.mjs"
+  },
+  "files": [
+    "server.mjs",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "yasashii-nihongo",
+    "easy-japanese",
+    "japan",
+    "government",
+    "disaster-preparedness"
+  ],
+  "author": "DroR Corporation (https://dror.co.jp)",
+  "license": "MIT",
+  "homepage": "https://yasashii.org/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dror-jp/yasashii.org.git",
+    "directory": "mcp"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

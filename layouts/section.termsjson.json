@@ -1,0 +1,28 @@
+{{- $terms := slice -}}
+{{- $seen := dict -}}
+{{- range where site.RegularPages "Section" "bunsho" -}}
+  {{- $docId := path.Base .File.Dir -}}
+  {{- $docUrl := .Permalink -}}
+  {{- range .Params.terms -}}
+    {{- if not (index $seen .word) -}}
+      {{- $seen = merge $seen (dict .word true) -}}
+      {{- $terms = $terms | append (dict
+            "word" .word
+            "reading" .reading
+            "meaning" .meaning
+            "source_doc" $docId
+            "source_url" $docUrl
+          ) -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- $out := dict
+      "name" "yasashii.org terms — 役所のことばの やさしい説明"
+      "generated" (now.Format "2006-01-02")
+      "count" (len $terms)
+      "terms" $terms
+      "disclaimer" "yasashii.org is not operated by any government body. Meanings are plain-Japanese explanations, not legal definitions."
+      "license" "CC BY 4.0"
+      "attribution" "yasashii.org (DroR Corporation)"
+-}}
+{{- $out | jsonify (dict "indent" "  ") -}}

@@ -27,4 +27,4 @@ yasashii.orgは、**株式会社DroR**（DroR Corporation）という 日本の 
 
 ## まちがいを 見つけたら
 
-メールで 教えて ください: fix@yasashii.org（準備中）
+メールで 教えて ください: fix@yasashii.org
