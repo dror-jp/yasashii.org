@@ -31,7 +31,7 @@ Claude Desktop (`claude_desktop_config.json`):
 
 | Tool | 説明 |
 |---|---|
-| `list_documents(category?)` | 文書一覧（id・要約・検証Tier）。`tetsuzuki` = 行政手続き / `bosai` = 防災 |
+| `list_documents(category?)` | 文書一覧（id・要約・検証Tier）。`tetsuzuki` = 行政手続き / `bosai` = 防災・緊急 / `seikatsu` = 生活 |
 | `get_document(id)` | 文書の本文（ふりがな《》・分かち書きつきMarkdown）・用語説明・検証済み一次情報リンク |
 | `search_terms(query)` | 役所のことば（住民票、転入届…）のやさしい日本語での説明 |
 | `get_meta()` | APIメタ情報 |

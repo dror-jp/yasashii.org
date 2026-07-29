@@ -37,8 +37,12 @@ const PATTERNS = [
 ];
 
 function stripMarkup(text) {
-  // ふりがな《》・分かち書きスペースを除去して判定用テキストにする
-  return text.replace(/《[^》]*》/g, "").replace(/[ \t]+/g, "");
+  // ふりがな《》・分かち書きスペース・Markdownリンクを除去して判定用テキストにする
+  // リンクは表示テキストだけを残す（URLを文字数・ローマ字として数えない）
+  return text
+    .replace(/\[([^\]]*)\]\(([^)]*)\)/g, "$1")
+    .replace(/《[^》]*》/g, "")
+    .replace(/[ \t]+/g, "");
 }
 
 function splitSentences(text) {

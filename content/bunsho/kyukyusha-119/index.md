@@ -6,8 +6,8 @@ category: "bosai"
 tier: "verified"
 last_verified: "2026-07-29"
 scores:
-  avg_sentence_chars: 16.2
-  kango_rate: 18.3
+  avg_sentence_chars: 16
+  kango_rate: 18.4
   warning_count: 1
 source_links:
   - label: "119番の正しいかけ方（総務省消防庁）"
@@ -30,7 +30,6 @@ terms:
     reading: "ひゃくじゅうきゅうばん"
     meaning: "救急車と 消防車《しょうぼうしゃ》を 呼ぶ 電話番号。火事の ときも 119です。"
 ---
-
 ## 119は どんな 番号ですか？
 
 **急な 病気・大きな けが・火事**の ときに かける 電話番号です。

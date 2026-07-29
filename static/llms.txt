@@ -15,7 +15,7 @@ License: CC BY 4.0 — attribution: yasashii.org (DroR Corporation)
 - Every page as plain Markdown: append `index.md` to any page URL (e.g. https://yasashii.org/bunsho/tennyu-todoke/index.md)
 - MCP server: `npx -y @dror-jp/yasashii-org-mcp`
 
-## Documents
+## Documents — 手続き (procedures)
 
 - 転入届の 出し方: https://yasashii.org/bunsho/tennyu-todoke/index.md
 - 転出届の 出し方: https://yasashii.org/bunsho/tenshutsu-todoke/index.md
@@ -24,9 +24,35 @@ License: CC BY 4.0 — attribution: yasashii.org (DroR Corporation)
 - 国民年金の 入り方: https://yasashii.org/bunsho/kokumin-nenkin/index.md
 - マイナンバーカードの 作り方: https://yasashii.org/bunsho/mainanba-kado/index.md
 - 在留期間の 更新の しかた: https://yasashii.org/bunsho/zairyu-kikan-koshin/index.md
+- 在留資格の 変更: https://yasashii.org/bunsho/zairyu-shikaku-henko/index.md
+- 一時帰国する とき（みなし再入国）: https://yasashii.org/bunsho/sainyukoku/index.md
+- 外国の 運転免許を 日本の 免許に 変える: https://yasashii.org/bunsho/menkyo-kirikae/index.md
+- 赤ちゃんが 生まれたら（出生届）: https://yasashii.org/bunsho/shussho-todoke/index.md
+- 児童手当: https://yasashii.org/bunsho/jido-teate/index.md
+- 妊娠したら（母子健康手帳）: https://yasashii.org/bunsho/boshi-techo/index.md
+- 保育園に 入れたい とき: https://yasashii.org/bunsho/hoikuen/index.md
+- 子どもを 小学校・中学校に 入れる: https://yasashii.org/bunsho/shogakko/index.md
+- 住民税: https://yasashii.org/bunsho/juminzei/index.md
+- 病院の お金が 高すぎる とき（高額療養費）: https://yasashii.org/bunsho/kogaku-ryoyohi/index.md
+- 出産の お金（出産育児一時金）: https://yasashii.org/bunsho/shussan-ichijikin/index.md
+- 仕事を やめた あとの お金（雇用保険）: https://yasashii.org/bunsho/shitsugyo-kyufu/index.md
+
+## Documents — 防災・緊急 (disaster & emergency)
+
 - 災害の 準備: https://yasashii.org/bunsho/bosai-sonae/index.md
+- 逃げる 計画を 作って おく: https://yasashii.org/bunsho/hinan-keikaku/index.md
 - 避難所の 使い方: https://yasashii.org/bunsho/hinanjo/index.md
+- 台風・大雨の とき: https://yasashii.org/bunsho/taifu-ooame/index.md
+- 地震の とき: https://yasashii.org/bunsho/jishin/index.md
+- 津波の とき: https://yasashii.org/bunsho/tsunami/index.md
 - 救急車の 呼び方（119番）: https://yasashii.org/bunsho/kyukyusha-119/index.md
+- 災害の とき、家族と 連絡を とる（171）: https://yasashii.org/bunsho/dengon-171/index.md
+- 熱中症に 気をつける: https://yasashii.org/bunsho/necchusho/index.md
+- 火事を ふせぐ: https://yasashii.org/bunsho/kaji/index.md
+
+## Documents — 生活 (daily life)
+
+- ごみの 出し方: https://yasashii.org/bunsho/gomi-dashikata/index.md
 
 ## Guides
 

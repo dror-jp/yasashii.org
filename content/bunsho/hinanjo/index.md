@@ -6,8 +6,8 @@ category: "bosai"
 tier: "verified"
 last_verified: "2026-07-29"
 scores:
-  avg_sentence_chars: 23.6
-  kango_rate: 20.7
+  avg_sentence_chars: 20.9
+  kango_rate: 21.9
   warning_count: 1
 source_links:
   - label: "「指定緊急避難場所」と「指定避難所」の違いについて（内閣府）"
@@ -29,7 +29,6 @@ terms:
     reading: "ハザードマップ"
     meaning: "危ない 場所と 逃げる 場所が 書いてある 地図。役所の サイトで 見られます。"
 ---
-
 ## 避難所《ひなんじょ》とは？
 
 災害《さいがい》で 家に いられなく なった 人が、しばらく 生活する 場所です。

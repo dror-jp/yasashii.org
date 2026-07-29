@@ -6,8 +6,8 @@ category: "tetsuzuki"
 tier: "verified"
 last_verified: "2026-07-29"
 scores:
-  avg_sentence_chars: 15.4
-  kango_rate: 21.6
+  avg_sentence_chars: 15.8
+  kango_rate: 21
   warning_count: 3
 source_links:
   - label: "国民健康保険法（e-Gov 法令検索）"
@@ -29,7 +29,6 @@ terms:
     reading: "ほけんりょう"
     meaning: "保険の ために 毎月 払う お金。去年の 収入《しゅうにゅう》で 金額《きんがく》が 決まります。"
 ---
-
 ## 何を しますか？
 
 「国民健康保険《こくみんけんこうほけん》」に 入ります。

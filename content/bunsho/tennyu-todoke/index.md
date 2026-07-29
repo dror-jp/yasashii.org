@@ -6,8 +6,8 @@ category: "tetsuzuki"
 tier: "verified"
 last_verified: "2026-07-29"
 scores:
-  avg_sentence_chars: 18.7
-  kango_rate: 26.3
+  avg_sentence_chars: 19.4
+  kango_rate: 25.2
   warning_count: 0
 source_links:
   - label: "外国人住民に係る住民基本台帳制度（総務省）"
@@ -25,7 +25,6 @@ terms:
     reading: "ざいりゅうカード"
     meaning: "日本に 長く 住む 外国人の 身分証《みぶんしょう》。"
 ---
-
 ## 何を しますか？
 
 引っ越しを したら、「転入届《てんにゅうとどけ》」という 紙を 役所《やくしょ》に 出します。

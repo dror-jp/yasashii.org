@@ -6,13 +6,38 @@
     {{ with .Params.summary }}<p class="summary">{{ partial "ruby.html" . }}</p>{{ end }}
   </div>
   <div class="content-body">{{ partial "ruby.html" .Content }}</div>
+  {{ $cats := slice
+      (dict "key" "tetsuzuki" "label" "手続《てつづ》きの 説明《せつめい》")
+      (dict "key" "bosai" "label" "防災《ぼうさい》・緊急《きんきゅう》")
+      (dict "key" "seikatsu" "label" "生活《せいかつ》") }}
+  {{ $all := .Pages }}
+  {{ $known := slice }}
+  {{ range $cats }}{{ $known = $known | append .key }}{{ end }}
+  {{ range $cats }}
+    {{ $pages := where $all "Params.category" .key }}
+    {{ if $pages }}
+    <h2 class="cat-head">{{ partial "ruby.html" .label }}</h2>
+    <div class="card-grid">
+      {{ range $pages }}
+        <a class="scene-card" href="{{ .RelPermalink }}">
+          <h3>{{ partial "ruby.html" .Title }}</h3>
+          <p>{{ partial "ruby.html" (.Params.summary | default "") }}</p>
+          {{ if eq .Params.tier "draft" }}<span class="badge-soon">下書き</span>{{ end }}
+        </a>
+      {{ end }}
+    </div>
+    {{ end }}
+  {{ end }}
+  {{ $other := where $all "Params.category" "not in" $known }}
+  {{ if $other }}
   <div class="card-grid">
-    {{ range .Pages }}
+    {{ range $other }}
       <a class="scene-card" href="{{ .RelPermalink }}">
         <h3>{{ partial "ruby.html" .Title }}</h3>
         <p>{{ partial "ruby.html" (.Params.summary | default "") }}</p>
       </a>
     {{ end }}
   </div>
+  {{ end }}
 </div>
 {{ end }}
