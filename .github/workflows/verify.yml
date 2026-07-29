@@ -1,0 +1,49 @@
+name: Build and verify
+
+on:
+  push:
+    branches: [master, main]
+  pull_request:
+  schedule:
+    # Weekly, Friday 06:00 JST (Thursday 21:00 UTC) — the freshness heartbeat
+    - cron: "0 21 * * 4"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: "0.164.0"
+          extended: true
+      - name: Build site
+        run: hugo --minify --logLevel info
+
+  check-links:
+    runs-on: ubuntu-latest
+    # Link rot breaks the freshness promise (確認日) — every source_link is re-verified weekly.
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify every published source link
+        shell: pwsh
+        run: ./scripts/Check-Links.ps1
+
+  check-yasashii:
+    runs-on: ubuntu-latest
+    # The guideline-based checker. Warnings are informational (the guideline sets
+    # no numeric thresholds); the job fails only on score drift — a document
+    # edited without re-running the checker.
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Install checker dependencies
+        run: npm ci
+        working-directory: kit/checker
+      - name: Run やさしい日本語 checker on all documents
+        shell: pwsh
+        run: ./scripts/Run-Checker.ps1
