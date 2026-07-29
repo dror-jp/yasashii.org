@@ -3,7 +3,7 @@ title: "妊娠《にんしん》したら（母子健康手帳《ぼしけんこ
 summary: "妊娠したら、早く 役所に「妊娠届」を 出します。「母子健康手帳」が もらえます。"
 layout: "document"
 category: "tetsuzuki"
-tier: "draft"
+tier: "verified"
 last_verified: "2026-07-29"
 scores:
   avg_sentence_chars: 19.9

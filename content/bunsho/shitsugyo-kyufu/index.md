@@ -3,7 +3,7 @@ title: "仕事を やめた あとの お金（雇用保険《こようほけん
 summary: "雇用保険に 入って いた 人は、仕事を やめて 次の 仕事を さがす とき、お金を もらえる ことが あります。ハローワークで 手続きを します。"
 layout: "document"
 category: "tetsuzuki"
-tier: "draft"
+tier: "verified"
 last_verified: "2026-07-29"
 scores:
   avg_sentence_chars: 18.6

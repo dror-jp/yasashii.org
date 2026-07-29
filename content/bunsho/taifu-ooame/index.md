@@ -3,7 +3,7 @@ title: "台風《たいふう》・大雨《おおあめ》の とき"
 summary: "台風や 大雨の とき、「警戒レベル」の 数字で 危なさが わかります。レベル4で 逃げて ください。"
 layout: "document"
 category: "bosai"
-tier: "draft"
+tier: "verified"
 last_verified: "2026-07-29"
 scores:
   avg_sentence_chars: 19.6

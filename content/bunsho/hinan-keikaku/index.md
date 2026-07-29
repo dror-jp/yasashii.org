@@ -3,7 +3,7 @@ title: "逃《に》げる 計画《けいかく》を 作って おく"
 summary: "災害の ときは、考える 時間が ありません。逃げる 場所と 連絡の しかたを、家族で 前もって 決めて ください。"
 layout: "document"
 category: "bosai"
-tier: "draft"
+tier: "verified"
 last_verified: "2026-07-29"
 scores:
   avg_sentence_chars: 21.7

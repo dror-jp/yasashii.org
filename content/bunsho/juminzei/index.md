@@ -3,7 +3,7 @@ title: "住民税《じゅうみんぜい》 まちに 払う 税金《ぜいき
 summary: "住民税は、住んでいる まちに 払う 税金です。去年の 収入《しゅうにゅう》で 金額《きんがく》が 決まります。"
 layout: "document"
 category: "tetsuzuki"
-tier: "draft"
+tier: "verified"
 last_verified: "2026-07-29"
 scores:
   avg_sentence_chars: 16.2

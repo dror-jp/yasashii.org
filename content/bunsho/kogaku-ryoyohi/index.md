@@ -3,7 +3,7 @@ title: "病院の お金が 高すぎる とき（高額療養費《こうがく
 summary: "健康保険《けんこうほけん》に 入って いる 人は、1か月に 病院で 払う お金に 上限《じょうげん》が あります。上限より 多く 払った お金は、あとで 戻って きます。"
 layout: "document"
 category: "tetsuzuki"
-tier: "draft"
+tier: "verified"
 last_verified: "2026-07-29"
 scores:
   avg_sentence_chars: 19

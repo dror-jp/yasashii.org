@@ -3,7 +3,7 @@ title: "子どもを 小学校《しょうがっこう》・中学校《ちゅ�
 summary: "外国人の 子どもも、公立の 小学校・中学校に 無料で 入れます。役所の 教育委員会に 聞いて ください。"
 layout: "document"
 category: "tetsuzuki"
-tier: "draft"
+tier: "verified"
 last_verified: "2026-07-29"
 scores:
   avg_sentence_chars: 18.2

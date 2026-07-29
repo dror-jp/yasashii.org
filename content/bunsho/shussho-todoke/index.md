@@ -3,7 +3,7 @@ title: "赤ちゃんが 生まれたら（出生届《しゅっしょうとど�
 summary: "赤ちゃんが 生まれたら、役所に「出生届」を 出します。生まれた 日から 14日以内です。"
 layout: "document"
 category: "tetsuzuki"
-tier: "draft"
+tier: "verified"
 last_verified: "2026-07-29"
 scores:
   avg_sentence_chars: 19.6

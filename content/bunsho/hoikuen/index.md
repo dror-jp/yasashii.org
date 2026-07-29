@@ -3,7 +3,7 @@ title: "保育園《ほいくえん》に 入れたい とき"
 summary: "子どもを 保育園に 入れたい ときは、役所に 申し込みます。締切は まちに よって ちがいます。"
 layout: "document"
 category: "tetsuzuki"
-tier: "draft"
+tier: "verified"
 last_verified: "2026-07-29"
 scores:
   avg_sentence_chars: 20.1

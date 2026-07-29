@@ -3,7 +3,7 @@ title: "熱中症《ねっちゅうしょう》に 気をつける"
 summary: "夏、体に 熱が こもって 起きる 病気です。家の 中でも 起きます。ふせぎ方と、なった ときの ことを 説明します。"
 layout: "document"
 category: "bosai"
-tier: "draft"
+tier: "verified"
 last_verified: "2026-07-29"
 scores:
   avg_sentence_chars: 17.5

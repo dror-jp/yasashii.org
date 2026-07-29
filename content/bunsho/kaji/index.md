@@ -3,7 +3,7 @@ title: "火事《かじ》を ふせぐ"
 summary: "家の 火事は、たばこ・ストーブ・こんろ・電気機器から 起きます。ふせぎ方と、火事の ときの ことを 説明します。"
 layout: "document"
 category: "bosai"
-tier: "draft"
+tier: "verified"
 last_verified: "2026-07-29"
 scores:
   avg_sentence_chars: 20.4

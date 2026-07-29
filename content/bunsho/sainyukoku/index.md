@@ -3,7 +3,7 @@ title: "一時帰国《いちじきこく》する とき（みなし再入国�
 summary: "1年以内に 日本に 帰って くる 人は、出国の 前の 手続きが いりません。空港の 紙に チェックを します。"
 layout: "document"
 category: "tetsuzuki"
-tier: "draft"
+tier: "verified"
 last_verified: "2026-07-29"
 scores:
   avg_sentence_chars: 20.4

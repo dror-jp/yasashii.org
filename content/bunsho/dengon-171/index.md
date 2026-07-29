@@ -3,7 +3,7 @@ title: "災害《さいがい》の とき、家族と 連絡《れんらく》�
 summary: "大きな 災害の とき、電話が つながりにくく なります。「災害用伝言ダイヤル171」で、声の メッセージを 残せます。"
 layout: "document"
 category: "bosai"
-tier: "draft"
+tier: "verified"
 last_verified: "2026-07-29"
 scores:
   avg_sentence_chars: 18.9

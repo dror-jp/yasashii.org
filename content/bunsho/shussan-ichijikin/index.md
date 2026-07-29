@@ -3,7 +3,7 @@ title: "出産《しゅっさん》の お金（出産育児一時金《しゅ�
 summary: "健康保険《けんこうほけん》に 入って いる 人が 子どもを 産むと、原則《げんそく》 50万円 もらえます。多くの 病院では、保険から 病院に 直接《ちょくせつ》 払われます。"
 layout: "document"
 category: "tetsuzuki"
-tier: "draft"
+tier: "verified"
 last_verified: "2026-07-29"
 scores:
   avg_sentence_chars: 16

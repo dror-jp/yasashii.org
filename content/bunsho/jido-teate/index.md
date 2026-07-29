@@ -3,7 +3,7 @@ title: "児童手当《じどうてあて》（子どもの ための お金）"
 summary: "子どもが いる 人は、国から お金が もらえます。役所に 申し込みを して ください。"
 layout: "document"
 category: "tetsuzuki"
-tier: "draft"
+tier: "verified"
 last_verified: "2026-07-29"
 scores:
   avg_sentence_chars: 21.4

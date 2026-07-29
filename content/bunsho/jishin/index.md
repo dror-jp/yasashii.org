@@ -3,7 +3,7 @@ title: "地震《じしん》の とき、どう するか"
 summary: "地震の とき、まず 自分の 体を 守ります。机の 下に 入って、頭を 守って ください。"
 layout: "document"
 category: "bosai"
-tier: "draft"
+tier: "verified"
 last_verified: "2026-07-29"
 scores:
   avg_sentence_chars: 18.5

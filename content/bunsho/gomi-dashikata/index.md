@@ -3,7 +3,7 @@ title: "ごみの 出し方"
 summary: "ごみの ルールは、まちに よって 全部 ちがいます。ここでは、どの まちでも 同じ ことを 説明します。"
 layout: "document"
 category: "seikatsu"
-tier: "draft"
+tier: "verified"
 last_verified: "2026-07-29"
 scores:
   avg_sentence_chars: 18.2

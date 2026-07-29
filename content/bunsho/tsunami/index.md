@@ -3,7 +3,7 @@ title: "津波《つなみ》の とき、どう するか"
 summary: "海の 近くで 強い ゆれを 感じたら、すぐ 高い 場所に 逃げます。津波は 何回も 来ます。"
 layout: "document"
 category: "bosai"
-tier: "draft"
+tier: "verified"
 last_verified: "2026-07-29"
 scores:
   avg_sentence_chars: 21.2

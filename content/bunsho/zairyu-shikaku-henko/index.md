@@ -3,7 +3,7 @@ title: "在留資格《ざいりゅうしかく》の 変更《へんこう》�
 summary: "日本で する ことが 変わる ときは、在留資格を 変える 申請を します。結果が 出るまで 1か月から 2か月 かかります。"
 layout: "document"
 category: "tetsuzuki"
-tier: "draft"
+tier: "verified"
 last_verified: "2026-07-29"
 scores:
   avg_sentence_chars: 19.2

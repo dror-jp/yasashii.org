@@ -3,7 +3,7 @@ title: "外国の 運転免許《うんてんめんきょ》を 日本の 免許
 summary: "外国の 運転免許を 持って いる 人は、試験《しけん》の 一部が 免除《めんじょ》に なります。これを「外免切替」と 言います。"
 layout: "document"
 category: "tetsuzuki"
-tier: "draft"
+tier: "verified"
 last_verified: "2026-07-29"
 scores:
   avg_sentence_chars: 19.8
