@@ -6,8 +6,8 @@ category: "bosai"
 tier: "verified"
 last_verified: "2026-07-29"
 scores:
-  avg_sentence_chars: 18.5
-  kango_rate: 15.4
+  avg_sentence_chars: 18
+  kango_rate: 15.8
   warning_count: 0
 source_links:
   - label: "緊急地震速報を見聞きしたときは（気象庁）"
@@ -17,6 +17,10 @@ source_links:
   - label: "まず落ち着いて身の安全を確保する（総務省消防庁）"
     url: "https://www.fdma.go.jp/publication/database/jishin2jishin/post17.html"
     publisher: "総務省消防庁"
+    verified: "2026-10-09"
+  - label: "地震発生時のエレベーター利用（日本エレベーター協会）"
+    url: "https://www.n-elekyo.or.jp/safety/elevator.html"
+    publisher: "一般社団法人 日本エレベーター協会"
     verified: "2026-10-09"
 terms:
   - word: "緊急地震速報"
@@ -41,17 +45,18 @@ terms:
 - 頭《あたま》を 守ります。
 - あわてて 外に 飛び出さないで ください。
 
+体を 守ってから、ドアを 開けて ください。逃げる ための 出口《でぐち》を 作ります。
+
 大きな ゆれは、約1分で おさまります。
 
 ## ゆれが おさまったら
 
-- 火を 消します。
-- ドアを 開けて、出口《でぐち》を 作ります。ドアが 開かなく なると、部屋から 出られません。
+火を 消します。
 
 ## エレベーターに 乗って いる とき
 
-全部の 階の ボタンを 押します。
-止まった 階で、すぐ 降りて ください。
+全部の 階の ボタンを 押して ください。
+エレベーターが 最初《さいしょ》に 止まった 階で、すぐ 降りて ください。
 
 ## 海の 近くに いる とき
 

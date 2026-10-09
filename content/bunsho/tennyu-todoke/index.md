@@ -14,6 +14,10 @@ source_links:
     url: "https://www.soumu.go.jp/main_sosiki/jichi_gyousei/c-gyousei/zairyu/index.html"
     publisher: "総務省"
     verified: "2026-10-09"
+  - label: "転入・転出（総務省 外国人住民に係る住民基本台帳制度）"
+    url: "https://www.soumu.go.jp/main_sosiki/jichi_gyousei/c-gyousei/zairyu/move-in_move-out.html"
+    publisher: "総務省"
+    verified: "2026-10-09"
 terms:
   - word: "転入届"
     reading: "てんにゅうとどけ"
@@ -42,7 +46,7 @@ terms:
 ## 何を 持って いきますか？
 
 - 在留《ざいりゅう》カード（外国人の 人）
-- パスポート
+- パスポート（空港《くうこう》などで 在留カードを もらって いない 人）
 - 日本の 別の まちから 引っ越した 人は、前の まちの 役所で もらった「転出証明書《てんしゅつしょうめいしょ》」
 
 ## 窓口《まどぐち》で 言うこと

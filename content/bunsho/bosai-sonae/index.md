@@ -6,8 +6,8 @@ category: "bosai"
 tier: "verified"
 last_verified: "2026-07-29"
 scores:
-  avg_sentence_chars: 16.4
-  kango_rate: 20.3
+  avg_sentence_chars: 17.1
+  kango_rate: 21
   warning_count: 0
 source_links:
   - label: "外国人のための減災のポイント（内閣府）"
@@ -17,6 +17,10 @@ source_links:
   - label: "災害時の多言語支援（自治体国際化協会 CLAIR）"
     url: "https://www.clair.or.jp/j/multiculture/tagengo/saigai.html"
     publisher: "自治体国際化協会（CLAIR）"
+    verified: "2026-10-09"
+  - label: "まず落ち着いて身の安全を確保する（総務省消防庁）"
+    url: "https://www.fdma.go.jp/publication/database/jishin2jishin/post17.html"
+    publisher: "総務省消防庁"
     verified: "2026-10-09"
 terms:
   - word: "避難所"
@@ -62,5 +66,6 @@ terms:
 ## 地震の とき
 
 - まず、机《つくえ》の 下など、頭《あたま》を 守れる 場所に 入ります。
-- ゆれが 終わってから、火を 消します。ドアを 開けます。
+- 体を 守ってから、ドアを 開けて、逃げる ための 出口《でぐち》を 作ります。
+- ゆれが 終わってから、火を 消します。
 - エレベーターは 使いません。

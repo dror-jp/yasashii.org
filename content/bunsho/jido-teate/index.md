@@ -6,12 +6,16 @@ category: "tetsuzuki"
 tier: "verified"
 last_verified: "2026-07-29"
 scores:
-  avg_sentence_chars: 21.4
-  kango_rate: 25.6
+  avg_sentence_chars: 21
+  kango_rate: 24.9
   warning_count: 2
 source_links:
   - label: "児童手当制度のご案内（こども家庭庁）"
     url: "https://www.cfa.go.jp/policies/kokoseido/jidouteate/annai"
+    publisher: "こども家庭庁"
+    verified: "2026-10-09"
+  - label: "「第3子以降」のカウント方法について（こども家庭庁）"
+    url: "https://www.cfa.go.jp/assets/contents/node/basic_page/field_ref_resources/c9d07fdc-1873-4b62-ba35-b38a62a471a6/9f5267a3/20250213_policies_kokoseido_jidouteate_annai_05.pdf"
     publisher: "こども家庭庁"
     verified: "2026-10-09"
 terms:
@@ -40,11 +44,20 @@ terms:
 
 1か月の 金額《きんがく》です。
 
-- 3歳未満《みまん》の 子ども: **15,000円**
+- 3歳《さい》未満《みまん》の 子ども: **15,000円**
 - 3歳から 高校生年代までの 子ども: **10,000円**
 - 3人目《にんめ》から あとの 子ども: **30,000円**
 
-お金は 2か月に 1回、2か月分《ぶん》ずつ 振り込《ふりこ》まれます。
+「3人目」の 数え方：
+
+- 年《とし》が 上の 子どもから、1人目、2人目、3人目と 数えます。
+- 高校生年代が 終わった 子どもも、22歳に なった あとの 最初の 3月31日までは 数えます。
+- ただし、児童手当を もらう 人が、その 子どもの 世話《せわ》を して、生活《せいかつ》の お金を 出して いる ときだけです。
+- この 子どもを 数える ときは、役所に「確認書《かくにんしょ》」を 出して ください。
+
+子どもが 3人 いても、3人目に ならない ことが あります。わからない ときは、役所に 聞いて ください。
+
+お金は 2か月に 1回、2か月《げつ》分《ぶん》ずつ 振り込《ふりこ》まれます。
 
 ## いつまでですか？
 

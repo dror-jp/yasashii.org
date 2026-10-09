@@ -6,13 +6,17 @@ category: "tetsuzuki"
 tier: "verified"
 last_verified: "2026-07-29"
 scores:
-  avg_sentence_chars: 19.8
-  kango_rate: 27.6
-  warning_count: 2
+  avg_sentence_chars: 19.4
+  kango_rate: 28.9
+  warning_count: 1
 source_links:
   - label: "外国の運転免許をお持ちの方（警察庁）"
     url: "https://www.npa.go.jp/policies/application/license_renewal/have_DL_issed_another_country.html"
     publisher: "警察庁"
+    verified: "2026-10-09"
+  - label: "外国で取得した運転免許証を日本の運転免許証に切り替えるには（警視庁）"
+    url: "https://www.keishicho.metro.tokyo.lg.jp/menkyo/menkyo/kokugai/kokugai05.html"
+    publisher: "警視庁"
     verified: "2026-10-09"
 terms:
   - word: "外免切替"
@@ -66,7 +70,10 @@ terms:
 
 ## 気をつけること
 
-- つぎの 国と 地域《ちいき》の 免許は、知識と 運転の 確認が 免除に なります。スイス、ドイツ、フランス、ベルギー、モナコ、台湾《たいわん》。
+- 知識と 運転の 確認が 免除に なる 国と 地域《ちいき》が あります。
+  - たとえば、ドイツ、フランス、韓国《かんこく》、台湾《たいわん》です。
+  - アメリカの 免許は、一部《いちぶ》の 州《しゅう》だけです。
+  - あなたの 免許が 免除に なるか どうかは、運転免許センターに 聞いて ください。
 - 国際運転免許証《こくさいうんてんめんきょしょう》は、この 切りかえの 対象《たいしょう》では ありません。
 - 住民登録が ないと、住民票の 写しが とれません。先に 役所で 手続きを して ください。
 - 持ち物は、都道府県に よって 少し ちがう ことが あります。心配な ときは 運転免許センターに 電話して ください。
