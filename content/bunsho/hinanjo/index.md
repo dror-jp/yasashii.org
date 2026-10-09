@@ -13,11 +13,11 @@ source_links:
   - label: "「指定緊急避難場所」と「指定避難所」の違いについて（内閣府）"
     url: "https://www.bousai.go.jp/taisaku/pdf/hinanjo_02.pdf"
     publisher: "内閣府（防災担当）"
-    verified: "2026-07-29"
+    verified: "2026-10-09"
   - label: "外国人のための減災のポイント（内閣府）"
     url: "https://www.bousai.go.jp/kyoiku/gensai/index.html"
     publisher: "内閣府（防災担当）"
-    verified: "2026-07-29"
+    verified: "2026-10-09"
 terms:
   - word: "避難所"
     reading: "ひなんじょ"

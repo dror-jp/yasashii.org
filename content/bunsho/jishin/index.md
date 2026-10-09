@@ -13,11 +13,11 @@ source_links:
   - label: "緊急地震速報を見聞きしたときは（気象庁）"
     url: "https://www.jma.go.jp/jma/kishou/know/jishin/eew/koudou/koudou.html"
     publisher: "気象庁"
-    verified: "2026-07-29"
+    verified: "2026-10-09"
   - label: "まず落ち着いて身の安全を確保する（総務省消防庁）"
     url: "https://www.fdma.go.jp/publication/database/jishin2jishin/post17.html"
     publisher: "総務省消防庁"
-    verified: "2026-07-29"
+    verified: "2026-10-09"
 terms:
   - word: "緊急地震速報"
     reading: "きんきゅうじしんそくほう"

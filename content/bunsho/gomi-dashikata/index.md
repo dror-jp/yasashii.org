@@ -13,11 +13,11 @@ source_links:
   - label: "ごみ出しのコツをつかんで楽しく分別しよう！（環境省）"
     url: "https://www.env.go.jp/guide/info/ecojin/action/20240221.html"
     publisher: "環境省"
-    verified: "2026-07-29"
+    verified: "2026-10-09"
   - label: "家電リサイクル法に基づくリサイクルの実施状況（環境省）"
     url: "https://www.env.go.jp/press/press_04804.html"
     publisher: "環境省"
-    verified: "2026-07-29"
+    verified: "2026-10-09"
 terms:
   - word: "分別"
     reading: "ぶんべつ"

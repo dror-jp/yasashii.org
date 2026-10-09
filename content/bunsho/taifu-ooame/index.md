@@ -13,7 +13,7 @@ source_links:
   - label: "避難情報に関するガイドライン（内閣府）"
     url: "https://www.bousai.go.jp/oukyu/hinanjouhou/r3_hinanjouhou_guideline/"
     publisher: "内閣府（防災担当）"
-    verified: "2026-07-29"
+    verified: "2026-10-09"
 terms:
   - word: "警戒レベル"
     reading: "けいかいレベル"

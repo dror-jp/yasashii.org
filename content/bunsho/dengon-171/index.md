@@ -13,11 +13,11 @@ source_links:
   - label: "災害用伝言ダイヤル（171）概要（NTT東日本）"
     url: "https://www.ntt-east.co.jp/saigai/voice171s/intro.html"
     publisher: "NTT東日本"
-    verified: "2026-07-29"
+    verified: "2026-10-09"
   - label: "災害用伝言ダイヤル（171）体験利用のご案内（NTT東日本）"
     url: "https://www.ntt-east.co.jp/saigai/voice171s/howto.html"
     publisher: "NTT東日本"
-    verified: "2026-07-29"
+    verified: "2026-10-09"
 terms:
   - word: "災害用伝言ダイヤル"
     reading: "さいがいようでんごんダイヤル"

@@ -13,7 +13,7 @@ source_links:
   - label: "児童手当制度のご案内（こども家庭庁）"
     url: "https://www.cfa.go.jp/policies/kokoseido/jidouteate/annai"
     publisher: "こども家庭庁"
-    verified: "2026-07-29"
+    verified: "2026-10-09"
 terms:
   - word: "児童手当"
     reading: "じどうてあて"

@@ -13,11 +13,11 @@ source_links:
   - label: "転入・転出（総務省 外国人住民に係る住民基本台帳制度）"
     url: "https://www.soumu.go.jp/main_sosiki/jichi_gyousei/c-gyousei/zairyu/move-in_move-out.html"
     publisher: "総務省"
-    verified: "2026-07-29"
+    verified: "2026-10-09"
   - label: "引越し手続オンラインサービス（デジタル庁）"
     url: "https://www.digital.go.jp/policies/posts/moving_onestop_service"
     publisher: "デジタル庁"
-    verified: "2026-07-29"
+    verified: "2026-10-09"
 terms:
   - word: "転出届"
     reading: "てんしゅつとどけ"

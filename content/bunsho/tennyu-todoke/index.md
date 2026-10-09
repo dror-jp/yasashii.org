@@ -13,7 +13,7 @@ source_links:
   - label: "外国人住民に係る住民基本台帳制度（総務省）"
     url: "https://www.soumu.go.jp/main_sosiki/jichi_gyousei/c-gyousei/zairyu/index.html"
     publisher: "総務省"
-    verified: "2026-07-29"
+    verified: "2026-10-09"
 terms:
   - word: "転入届"
     reading: "てんにゅうとどけ"

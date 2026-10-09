@@ -13,11 +13,11 @@ source_links:
   - label: "国民健康保険法（e-Gov 法令検索）"
     url: "https://laws.e-gov.go.jp/law/333AC0000000192"
     publisher: "法律の 本文（e-Gov）"
-    verified: "2026-07-29"
+    verified: "2026-10-09"
   - label: "外国人住民に係る住民基本台帳制度（総務省）"
     url: "https://www.soumu.go.jp/main_sosiki/jichi_gyousei/c-gyousei/zairyu/index.html"
     publisher: "総務省"
-    verified: "2026-07-29"
+    verified: "2026-10-09"
 terms:
   - word: "国民健康保険"
     reading: "こくみんけんこうほけん"

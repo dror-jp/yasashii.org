@@ -13,11 +13,11 @@ source_links:
   - label: "住宅防火 いのちを守る10のポイント（総務省消防庁）"
     url: "https://www.fdma.go.jp/publication/movie/juutaku_bouka/items/r04_inochiwomamoru_leaflet.pdf"
     publisher: "総務省消防庁"
-    verified: "2026-07-29"
+    verified: "2026-10-09"
   - label: "住宅用火災警報器Q&A（総務省消防庁）"
     url: "https://www.fdma.go.jp/relocation/html/life/yobou_contents/qa/"
     publisher: "総務省消防庁"
-    verified: "2026-07-29"
+    verified: "2026-10-09"
 terms:
   - word: "住宅用火災警報器"
     reading: "じゅうたくようかさいけいほうき"

@@ -13,7 +13,7 @@ source_links:
   - label: "保育（こども家庭庁）"
     url: "https://www.cfa.go.jp/policies/hoiku"
     publisher: "こども家庭庁"
-    verified: "2026-07-29"
+    verified: "2026-10-09"
 terms:
   - word: "保育園"
     reading: "ほいくえん"

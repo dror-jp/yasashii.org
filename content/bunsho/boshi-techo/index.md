@@ -13,7 +13,7 @@ source_links:
   - label: "母子健康手帳（こども家庭庁）"
     url: "https://www.cfa.go.jp/policies/boshihoken/techou"
     publisher: "こども家庭庁"
-    verified: "2026-07-29"
+    verified: "2026-10-09"
 terms:
   - word: "妊娠届"
     reading: "にんしんとどけ"

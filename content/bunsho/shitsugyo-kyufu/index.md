@@ -13,11 +13,11 @@ source_links:
   - label: "基本手当について（厚生労働省）"
     url: "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000135026.html"
     publisher: "厚生労働省"
-    verified: "2026-07-29"
+    verified: "2026-10-09"
   - label: "雇用保険手続きのご案内（ハローワークインターネットサービス）"
     url: "https://www.hellowork.mhlw.go.jp/insurance/insurance_guide.html"
     publisher: "厚生労働省・ハローワーク"
-    verified: "2026-07-29"
+    verified: "2026-10-09"
 terms:
   - word: "雇用保険"
     reading: "こようほけん"

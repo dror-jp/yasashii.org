@@ -13,11 +13,11 @@ source_links:
   - label: "津波発生と伝播のしくみ（気象庁）"
     url: "https://www.jma.go.jp/jma/kishou/know/jishin/tsunami/generation.html"
     publisher: "気象庁"
-    verified: "2026-07-29"
+    verified: "2026-10-09"
   - label: "津波について よくある質問集（気象庁）"
     url: "https://www.jma.go.jp/jma/kishou/know/faq/faq26.html"
     publisher: "気象庁"
-    verified: "2026-07-29"
+    verified: "2026-10-09"
 terms:
   - word: "津波"
     reading: "つなみ"

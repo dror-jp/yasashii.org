@@ -13,7 +13,7 @@ source_links:
   - label: "出産育児一時金等について（厚生労働省）"
     url: "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iryouhoken/shussan/index.html"
     publisher: "厚生労働省"
-    verified: "2026-07-29"
+    verified: "2026-10-09"
 terms:
   - word: "出産育児一時金"
     reading: "しゅっさんいくじいちじきん"

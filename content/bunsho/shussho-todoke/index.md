@@ -13,11 +13,11 @@ source_links:
   - label: "出生届（法務省）"
     url: "https://www.moj.go.jp/ONLINE/FAMILYREGISTER/5-1.html"
     publisher: "法務省"
-    verified: "2026-07-29"
+    verified: "2026-10-09"
   - label: "在留資格取得許可申請（出入国在留管理庁）"
     url: "https://www.moj.go.jp/isa/applications/procedures/16-10.html"
     publisher: "出入国在留管理庁"
-    verified: "2026-07-29"
+    verified: "2026-10-09"
 terms:
   - word: "出生届"
     reading: "しゅっしょうとどけ"

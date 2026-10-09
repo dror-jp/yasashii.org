@@ -13,11 +13,11 @@ source_links:
   - label: "みなし再入国許可（出入国在留管理庁）"
     url: "https://www.moj.go.jp/isa/immigration/procedures/minashisainyukoku_00001.html"
     publisher: "出入国在留管理庁"
-    verified: "2026-07-29"
+    verified: "2026-10-09"
   - label: "再入国許可（出入国在留管理庁）"
     url: "https://www.moj.go.jp/isa/immigration/procedures/sainyukoku_00002.html"
     publisher: "出入国在留管理庁"
-    verified: "2026-07-29"
+    verified: "2026-10-09"
 terms:
   - word: "みなし再入国許可"
     reading: "みなしさいにゅうこくきょか"

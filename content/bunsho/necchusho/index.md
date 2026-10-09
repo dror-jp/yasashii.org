@@ -13,11 +13,11 @@ source_links:
   - label: "環境省熱中症予防情報サイト"
     url: "https://www.wbgt.env.go.jp/"
     publisher: "環境省"
-    verified: "2026-07-29"
+    verified: "2026-10-09"
   - label: "熱中症を予防して元気な夏を！（総務省消防庁）"
     url: "https://www.fdma.go.jp/disaster/heatstroke/items/heatstroke003_leaflet.pdf"
     publisher: "総務省消防庁"
-    verified: "2026-07-29"
+    verified: "2026-10-09"
 terms:
   - word: "熱中症"
     reading: "ねっちゅうしょう"

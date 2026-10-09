@@ -13,11 +13,11 @@ source_links:
   - label: "外国人のための減災のポイント（内閣府）"
     url: "https://www.bousai.go.jp/kyoiku/gensai/index.html"
     publisher: "内閣府（防災担当）"
-    verified: "2026-07-13"
+    verified: "2026-10-09"
   - label: "災害時の多言語支援（自治体国際化協会 CLAIR）"
     url: "https://www.clair.or.jp/j/multiculture/tagengo/saigai.html"
     publisher: "自治体国際化協会（CLAIR）"
-    verified: "2026-07-13"
+    verified: "2026-10-09"
 terms:
   - word: "避難所"
     reading: "ひなんじょ"

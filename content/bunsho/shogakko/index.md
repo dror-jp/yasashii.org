@@ -13,7 +13,7 @@ source_links:
   - label: "外国人の子等の就学に関する手続について（文部科学省）"
     url: "https://www.mext.go.jp/a_menu/shotou/shugaku/detail/1422256.htm"
     publisher: "文部科学省"
-    verified: "2026-07-29"
+    verified: "2026-10-09"
 terms:
   - word: "公立学校"
     reading: "こうりつがっこう"

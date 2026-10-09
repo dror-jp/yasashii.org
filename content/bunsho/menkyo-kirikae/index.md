@@ -13,7 +13,7 @@ source_links:
   - label: "外国の運転免許をお持ちの方（警察庁）"
     url: "https://www.npa.go.jp/policies/application/license_renewal/have_DL_issed_another_country.html"
     publisher: "警察庁"
-    verified: "2026-07-29"
+    verified: "2026-10-09"
 terms:
   - word: "外免切替"
     reading: "がいめんきりかえ"

@@ -13,7 +13,7 @@ source_links:
   - label: "個人住民税（総務省）"
     url: "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/150790_06.html"
     publisher: "総務省"
-    verified: "2026-07-29"
+    verified: "2026-10-09"
 terms:
   - word: "住民税"
     reading: "じゅうみんぜい"

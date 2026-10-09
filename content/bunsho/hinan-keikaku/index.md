@@ -13,11 +13,11 @@ source_links:
   - label: "避難情報に関するガイドライン（内閣府）"
     url: "https://www.bousai.go.jp/oukyu/hinanjouhou/r3_hinanjouhou_guideline/"
     publisher: "内閣府（防災担当）"
-    verified: "2026-07-29"
+    verified: "2026-10-09"
   - label: "災害用伝言ダイヤル（171）概要（NTT東日本）"
     url: "https://www.ntt-east.co.jp/saigai/voice171s/intro.html"
     publisher: "NTT東日本"
-    verified: "2026-07-29"
+    verified: "2026-10-09"
 terms:
   - word: "ハザードマップ"
     reading: "ハザードマップ"
