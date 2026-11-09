@@ -1,0 +1,24 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.dror-jp/yasashii-org-mcp",
+  "title": "yasashii.org",
+  "description": "Human-verified Easy Japanese versions of Japanese administrative and disaster-preparedness info.",
+  "repository": {
+    "url": "https://github.com/dror-jp/yasashii.org",
+    "source": "github",
+    "subfolder": "mcp"
+  },
+  "websiteUrl": "https://yasashii.org/data/",
+  "version": "1.1.1",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@dror-jp/yasashii-org-mcp",
+      "version": "1.1.1",
+      "runtimeHint": "npx",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}

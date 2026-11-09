@@ -159,7 +159,7 @@ rl.on("line", async (line) => {
       reply(id, {
         protocolVersion: params?.protocolVersion ?? "2025-06-18",
         capabilities: { tools: {} },
-        serverInfo: { name: "yasashii-org", version: "1.1.0" },
+        serverInfo: { name: "yasashii-org", version: "1.1.1" },
         instructions:
           "Human-verified Easy Japanese (やさしい日本語) versions of Japanese administrative and disaster information. " + DISCLAIMER,
       });
