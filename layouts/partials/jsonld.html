@@ -1,0 +1,50 @@
+{{- /* Structured data. Site-wide: WebSite + Organization (publisher = DroR Corporation).
+     Document pages (layout "document"): Article with dateModified = last_verified,
+     license = CC BY 4.0 and isBasedOn = source_links. */ -}}
+{{- $org := dict
+      "@type" "Organization"
+      "name" site.Params.operatorName
+      "alternateName" "株式会社DroR"
+      "url" site.Params.operatorUrl
+      "sameAs" (slice site.Params.operatorUrl)
+-}}
+{{- $website := dict
+      "@context" "https://schema.org"
+      "@type" "WebSite"
+      "name" site.Title
+      "url" site.BaseURL
+      "description" (printf "役所の 手続きと 防災の 情報を、やさしい 日本語で 読めます。%s" site.Params.notGovernment)
+      "inLanguage" "ja"
+      "publisher" $org
+-}}
+<script type="application/ld+json">{{ $website | jsonify | safeJS }}</script>
+{{- if eq .Params.layout "document" -}}
+  {{- $based := slice -}}
+  {{- range .Params.source_links }}{{ $based = $based | append .url }}{{ end -}}
+  {{- $article := dict
+        "@context" "https://schema.org"
+        "@type" "Article"
+        "headline" (.Title | replaceRE "《[^》]*》" "")
+        "description" (.Params.summary | default "" | replaceRE "《[^》]*》" "")
+        "url" .Permalink
+        "inLanguage" "ja"
+        "dateModified" .Params.last_verified
+        "publisher" $org
+        "license" "https://creativecommons.org/licenses/by/4.0/"
+  -}}
+  {{- if $based -}}
+    {{- $article = dict
+          "@context" "https://schema.org"
+          "@type" "Article"
+          "headline" (.Title | replaceRE "《[^》]*》" "")
+          "description" (.Params.summary | default "" | replaceRE "《[^》]*》" "")
+          "url" .Permalink
+          "inLanguage" "ja"
+          "dateModified" .Params.last_verified
+          "publisher" $org
+          "license" "https://creativecommons.org/licenses/by/4.0/"
+          "isBasedOn" $based
+    -}}
+  {{- end -}}
+  <script type="application/ld+json">{{ $article | jsonify | safeJS }}</script>
+{{- end -}}

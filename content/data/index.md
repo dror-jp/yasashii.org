@@ -24,11 +24,27 @@ layout: "page"
 
 AIエージェント（Claude など）から、この サイトの データを 関数として 呼べます。
 
+**ネットで つなぐ 方法（リモート）**: 登録や 認証《にんしょう》は いりません。無料です（Streamable HTTP）。
+
+```
+https://mcp.yasashii.org/mcp
+```
+
+Claude Code では:
+
+```
+claude mcp add --transport http yasashii-org https://mcp.yasashii.org/mcp
+```
+
+**パソコンで 動かす 方法（npm）**:
+
 ```
 npx -y @dror-jp/yasashii-org-mcp
 ```
 
 くわしい 使い方: [npm の ページ](https://www.npmjs.com/package/@dror-jp/yasashii-org-mcp)
+
+ネットで つなぐ 方法の 記録（ログ）に ついては、[プライバシー](/disclaimer/#privacy)を 見て ください。
 
 ## 書き方の 記号
 
