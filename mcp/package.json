@@ -1,6 +1,6 @@
 {
   "name": "@dror-jp/yasashii-org-mcp",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "mcpName": "io.github.dror-jp/yasashii-org-mcp",
   "description": "MCP server for yasashii.org — human-verified Easy Japanese (やさしい日本語) versions of Japanese administrative procedures and disaster-preparedness information. Zero dependencies.",
   "type": "module",
