@@ -1,0 +1,16 @@
+{
+  // Remote MCP server (Streamable HTTP) for yasashii.org.
+  // Separate Worker from the site (../wrangler.jsonc) so a deploy here can never affect the site.
+  // Deploy (on a PC where CF_API_TOKEN is set, unset it first so wrangler uses OAuth):
+  //   cd remote-mcp && npx wrangler deploy
+  "name": "yasashii-org-mcp",
+  "main": "src/index.js",
+  "compatibility_date": "2026-07-29",
+  "routes": [{ "pattern": "mcp.yasashii.org", "custom_domain": true }],
+  // Read the site's static API and Markdown mirrors through a service binding (no public round trip);
+  // falls back to https://yasashii.org when the binding is unavailable or fails.
+  "services": [{ "binding": "SITE", "service": "yasashii-org" }],
+  // Per-IP rate limit. Read-only public data, so this only guards against floods.
+  "ratelimits": [{ "name": "LIMITER", "namespace_id": "1002", "simple": { "limit": 120, "period": 60 } }],
+  "observability": { "enabled": true }
+}

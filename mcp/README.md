@@ -6,7 +6,14 @@
 MCP server for yasashii.org — human-verified Easy Japanese (やさしい日本語) versions of
 Japanese administrative procedures and disaster-preparedness information. Zero dependencies.
 
-## Setup
+## Remote (no install)
+
+Streamable HTTP endpoint, no authentication: `https://mcp.yasashii.org/mcp`
+
+Add it as a custom connector in Claude (Settings → Connectors) or any MCP client that
+supports remote servers. Same tools and data as the npm package below.
+
+## Setup (local, npm)
 
 Claude Code:
 

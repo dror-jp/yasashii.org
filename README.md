@@ -13,6 +13,7 @@
 
 ## For AI agents
 
+- **Remote MCP server** — `https://mcp.yasashii.org/mcp` (Streamable HTTP, no auth; source in [`remote-mcp/`](remote-mcp/))
 - **MCP server** ([`mcp/`](mcp/)) — `npx -y @dror-jp/yasashii-org-mcp`
   ([npm](https://www.npmjs.com/package/@dror-jp/yasashii-org-mcp), official MCP Registry: `io.github.dror-jp/yasashii-org-mcp`).
   Dependency-free, no API key. Tools: `list_documents`, `get_document`, `search_terms`, `get_meta`.
@@ -26,7 +27,8 @@
 Claude Code:
 
 ```bash
-claude mcp add yasashii-org -- npx -y @dror-jp/yasashii-org-mcp
+claude mcp add --transport http yasashii-org https://mcp.yasashii.org/mcp   # remote
+claude mcp add yasashii-org -- npx -y @dror-jp/yasashii-org-mcp   # local
 ```
 
 Claude Desktop and other MCP clients:
