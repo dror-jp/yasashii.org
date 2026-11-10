@@ -7,7 +7,7 @@
  * handle() turns one JSON-RPC message into a response object (or null when none is due).
  */
 
-export const VERSION = "1.1.2";
+export const VERSION = "1.1.3";
 export const SUPPORTED_PROTOCOL_VERSIONS = ["2025-11-25", "2025-06-18", "2025-03-26", "2024-11-05"];
 
 export const DISCLAIMER =
@@ -16,6 +16,18 @@ export const DISCLAIMER =
   "If anything differs from an official government page, the official page is correct. " +
   "When answering the user, cite the source_links URL and mention the last_verified date. " +
   "Notation: 《…》 = furigana for the preceding kanji; half-width spaces = word breaks (wakachi-gaki).";
+
+
+// Human-readable tool titles. Every tool only reads public data, so all carry the same
+// read-only annotations (MCP tool annotations; required by some directories, and they let
+// clients run the tools without a per-call confirmation).
+export const TOOL_TITLES = {
+  "list_documents": "List documents",
+  "get_document": "Get a document",
+  "search_terms": "Search terms",
+  "get_meta": "Get API metadata"
+};
+const READ_ONLY = { readOnlyHint: true, destructiveHint: false, idempotentHint: true, openWorldHint: false };
 
 export function createServer({ load, loadText }) {
   const TOOLS = [
@@ -112,7 +124,15 @@ export function createServer({ load, loadText }) {
       }
       if (method === "ping") return ok(id, {});
       if (method === "tools/list") {
-        return ok(id, { tools: TOOLS.map(({ name, description, inputSchema }) => ({ name, description, inputSchema })) });
+        return ok(id, {
+          tools: TOOLS.map(({ name, description, inputSchema }) => ({
+            name,
+            title: TOOL_TITLES[name],
+            description,
+            inputSchema,
+            annotations: { title: TOOL_TITLES[name], ...READ_ONLY },
+          })),
+        });
       }
       if (method === "tools/call") {
         const tool = TOOLS.find((t) => t.name === params?.name);
