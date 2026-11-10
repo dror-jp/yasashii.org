@@ -2,8 +2,24 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 {{- $title := printf "%s — %s" (.Title | replaceRE "《[^》]*》" "") site.Title -}}
 {{- if .IsHome }}{{ $title = printf "%s — %s" site.Title site.Params.tagline }}{{ end -}}
+{{- $desc := "" -}}
+{{- with .Params.summary }}{{ $desc = . | replaceRE "《[^》]*》" "" }}{{ else }}{{ $desc = printf "役所の 手続きと 防災の 情報を、やさしい 日本語で 読めます。%s" site.Params.notGovernment }}{{ end }}
 <title>{{ $title }}</title>
-<meta name="description" content="{{ with .Params.summary }}{{ . | replaceRE "《[^》]*》" "" }}{{ else }}役所の 手続きと 防災の 情報を、やさしい 日本語で 読めます。{{ site.Params.notGovernment }}{{ end }}">
+<meta name="description" content="{{ $desc }}">
 <link rel="canonical" href="{{ .Permalink }}">
 <link rel="icon" type="image/svg+xml" href="{{ "favicon.svg" | relURL }}">
 <link rel="stylesheet" href="{{ "css/main.css" | relURL }}">
+
+{{- /* Open Graph + Twitter cards. No og:image yet: there is no share image
+     in static/ (add static/og/default.png 1200x630, then og:image and
+     twitter:card "summary_large_image"). */}}
+<meta property="og:site_name" content="{{ site.Title }}">
+<meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+<meta property="og:title" content="{{ $title }}">
+<meta property="og:description" content="{{ $desc }}">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:locale" content="ja_JP">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="{{ $title }}">
+<meta name="twitter:description" content="{{ $desc }}">
+{{ partial "jsonld.html" . }}

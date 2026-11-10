@@ -6,6 +6,8 @@
 # License: CC BY 4.0 — attribution: yasashii.org (DroR Corporation)
 # Generated: {{ now.Format "2006-01-02" }} (built from the same source as the HTML site — never hand-synced)
 # JSON API: {{ "api/documents.json" | absURL }} | {{ "api/terms.json" | absURL }} | {{ "api/meta.json" | absURL }}
+# MCP: remote https://mcp.yasashii.org/mcp (Streamable HTTP, no sign-up, no auth) — `claude mcp add --transport http yasashii-org https://mcp.yasashii.org/mcp` | local `npx -y @dror-jp/yasashii-org-mcp`
+# Related: https://official.tokyo.jp/ — Tokyo life procedures for foreign residents in English, Chinese, Vietnamese, Nepali and Japanese (same operator)
 
 {{ range where site.RegularPages "Section" "bunsho" }}
 ## {{ replaceRE "《[^》]+》" "" .Title }}  [id: {{ path.Base .File.Dir }}] [tier: {{ .Params.tier }}] [verified: {{ .Params.last_verified }}]

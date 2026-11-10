@@ -13,7 +13,9 @@ License: CC BY 4.0 — attribution: yasashii.org (DroR Corporation)
 - Metadata: https://yasashii.org/api/meta.json
 - Full text of every document: https://yasashii.org/llms-full.txt
 - Every page as plain Markdown: append `index.md` to any page URL (e.g. https://yasashii.org/bunsho/tennyu-todoke/index.md)
-- MCP server: `npx -y @dror-jp/yasashii-org-mcp`
+- Remote MCP server: `https://mcp.yasashii.org/mcp` (Streamable HTTP, no sign-up, no auth, free) — Claude Code: `claude mcp add --transport http yasashii-org https://mcp.yasashii.org/mcp`
+- MCP server (local, npm): `npx -y @dror-jp/yasashii-org-mcp`
+- Disclaimer, link policy, privacy (incl. remote MCP logs): https://yasashii.org/disclaimer/index.md
 
 ## Documents — 手続き (procedures)
 
@@ -58,3 +60,7 @@ License: CC BY 4.0 — attribution: yasashii.org (DroR Corporation)
 
 - やさしい日本語の 正しい 一次情報（入管庁×文化庁ガイドライン等）: https://yasashii.org/guide/index.md
 - この サイトに ついて: https://yasashii.org/about/index.md
+
+## Related
+
+- official.tokyo.jp — Tokyo life procedures for foreign residents in English, Chinese, Vietnamese, Nepali and Japanese (same operator): https://official.tokyo.jp/llms.txt
